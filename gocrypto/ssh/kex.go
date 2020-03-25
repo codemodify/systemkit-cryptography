@@ -18,10 +18,10 @@ import (
 
 	"golang.org/x/crypto/curve25519"
 
-	logging "github.com/codemodify/SystemKit/Logging"
-	loggingC "github.com/codemodify/SystemKit/Logging/Contracts"
+	logging "github.com/codemodify/systemkit-logging"
+	loggingC "github.com/codemodify/systemkit-logging/contracts"
 
-	helpersReflect "github.com/codemodify/SystemKit/Helpers"
+	helpersReflect "github.com/codemodify/systemkit-helpers"
 )
 
 var logPrefixesToRemove = []string{
